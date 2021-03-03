@@ -24,12 +24,12 @@ for eq in list_of_eqs:
     lons.append(lon)
     lats.append(lat)
     hover_texts.append(hover_text)
-
+"""
 print(mags[:10])
 print(lons[:10])
 print(lats[:10])
 
-
+"""
 from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
 
